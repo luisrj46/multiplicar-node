@@ -13,7 +13,7 @@ let comando = argv._[0];
 switch (comando) {
     case 'crear':
         crearArchivo(argv.base, argv.limite)
-            .then(archivo => console.log(`el Archivo ${archivo} ha sido creado`))
+            .then(archivo => console.log(`el Archivo ${archivo} ha sido creado`.))
             .catch(e => console.log(e));
         break;
     case 'listar':
